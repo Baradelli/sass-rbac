@@ -15,9 +15,7 @@
     "tsx": "^4.19.4"
   },
   "eslintConfig": {
-    "extends": [
-      "@sass/eslint-config/node"
-    ]
+    "extends": "@sass/eslint-config/node"
   },
   "prettier": "@sass/prettier"
 }
