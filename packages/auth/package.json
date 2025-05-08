@@ -1,0 +1,18 @@
+{
+  "name": "@sass/auth",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "devDependencies": {
+    "@sass/prettier": "../../config/prettier",
+    "@sass/eslint-config": "../../config/eslint-config",
+    "@sass/tsconfig": "../../config/typescript-config"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@sass/eslint-config/base"
+    ]
+  },
+  "prettier": "@sass/prettier"
+}
