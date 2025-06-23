@@ -15,12 +15,16 @@
     "zod": "^3.24.4"
   },
   "devDependencies": {
+    "@faker-js/faker": "^9.8.0",
     "@sass/eslint-config": "../../config/eslint-config",
     "@sass/prettier": "../../config/prettier",
     "@sass/tsconfig": "../../config/typescript-config",
     "@types/bcryptjs": "^3.0.0",
     "@types/node": "^22.15.17",
     "tsx": "^4.19.4"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
   },
   "eslintConfig": {
     "extends": "@sass/eslint-config/node"
