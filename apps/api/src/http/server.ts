@@ -19,6 +19,8 @@ import { getProfile } from './routes/auth/get-profile'
 import { requestPasswordRecover } from './routes/auth/request-password-recover'
 import { resetPassword } from './routes/auth/reset-password'
 import { getMembers } from './routes/members/get-members'
+import { removeMember } from './routes/members/remove-member'
+import { udpateMember } from './routes/members/update-member'
 import { createOrganization } from './routes/orgs/create-organization'
 import { getMembership } from './routes/orgs/get-membership'
 import { getOrganization } from './routes/orgs/get-organization'
@@ -91,6 +93,8 @@ app.register(getProjects)
 app.register(updateProject)
 
 app.register(getMembers)
+app.register(udpateMember)
+app.register(removeMember)
 
 app.listen({ port: env.SERVER_PORT }, (_, address) => {
   console.log('HTTP Server running at:', address)
