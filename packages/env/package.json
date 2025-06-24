@@ -1,0 +1,21 @@
+{
+  "name": "@sass/env",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.ts",
+  "types": "index.ts",
+  "devDependencies": {
+    "@sass/eslint-config": "../../config/eslint-config",
+    "@sass/prettier": "../../config/prettier",
+    "@sass/tsconfig": "../../config/typescript-config",
+    "@types/node": "^24.0.3"
+  },
+  "eslintConfig": {
+    "extends": "@sass/eslint-config/base"
+  },
+  "prettier": "@sass/prettier",
+  "dependencies": {
+    "@t3-oss/env-nextjs": "^0.13.8",
+    "zod": "^3.24.4"
+  }
+}
